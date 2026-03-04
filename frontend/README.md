@@ -1,16 +1,95 @@
-# React + Vite
+# Loan Planner 💰
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **Loan Planner Web Application** that helps users manage and track their loans easily. Users can create loans, view loan details, edit loan information, and track repayment status.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* Create a new loan
+* View all loans
+* Edit loan details
+* Track repayment and due dates
+* Delete loans
+* Clean and responsive UI
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+**Frontend**
 
-## Expanding the ESLint configuration
+* React
+* Vite
+* Tailwind CSS
+* DaisyUI
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Backend**
+
+* Node.js
+* Express.js
+
+**Database**
+
+* MongoDB
+
+## 📂 Project Structure
+
+```
+Loan-Planner
+│
+├── backend
+│   ├── controllers
+│   ├── models
+│   ├── routes
+│   └── server.js
+│
+├── frontend
+│   ├── public
+│   ├── src
+│   │   ├── components
+│   │   ├── pages
+│   │   └── App.jsx
+│
+└── README.md
+```
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```
+git clone https://github.com/chmcs2026atharvapawar-ui/Loan-Planner.git
+```
+
+Go into the project folder:
+
+```
+cd Loan-Planner
+```
+
+### Install Backend
+
+```
+cd backend
+npm install
+npm start
+```
+
+### Install Frontend
+
+```
+cd frontend
+npm install
+npm run dev
+```
+
+## 🌐 Future Improvements
+
+* User authentication
+* Loan interest calculation
+* Payment reminders
+* Dashboard analytics
+
+## 👨‍💻 Author
+
+**Atharva Pawar**
+
+GitHub:
+https://github.com/chmcs2026atharvapawar-ui
